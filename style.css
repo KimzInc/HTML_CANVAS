@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+header{
+  position: relative;
+  height: 20vh;
+  border-bottom: 7px solid #eee;
+
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3; 
+
+}
+
+.info{
+  font-size: 1.4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 80%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+main {
+  height: 80vh;
+  color: #b3b3b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #d9d9e6;
+}  
+
+canvas{
+  border: 2px solid #333;
+}
